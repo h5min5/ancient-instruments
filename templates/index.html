@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Indian astronomical instruments">
+    <title>Indian Astronomical Instruments</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Indian Astronomical Instruments</h1>
+        <p>Explore the science and history behind India's ancient astronomical tools.</p>
+    </header>
+
+    <section id="instruments">
+        <div class="instrument" id="jantar-mantar">
+            <img src="{{ url_for('static', filename='images/Jm.png') }}" alt="Jantar Mantar">
+            <h2>Jantar Mantar</h2>
+            <p class="desc">An ancient observatory with massive instruments for celestial tracking and timekeeping.</p>
+        </div>
+
+        <div class="instrument" id="astrolabe">
+            <img src="{{ url_for('static', filename='images/Astrolabe.png') }}" alt="Astrolabe">
+            <h2>Astrolabe</h2>
+            <p class="desc">A portable device used to measure stars’ positions and solve astronomical problems.</p>
+        </div>
+
+        <div class="instrument" id="sundial">
+            <img src="{{ url_for('static', filename='images/Sundial.png') }}" alt="Sundial">
+            <h2>Sundial</h2>
+            <p class="desc">Uses the sun’s shadow to indicate the time of day, one of the oldest timekeeping tools.</p>
+        </div>
+
+        <div class="instrument" id="samrat-yantra">
+            <img src="{{ url_for('static', filename='images/Samrat.png') }}" alt="Samrat Yantra">
+            <h2>Samrat Yantra</h2>
+            <p class="desc">A giant sundial at Jantar Mantar used for calculating local time with great precision.</p>
+        </div>
+
+        <div class="instrument" id="jaiprakash-yantra">
+            <img src="{{ url_for('static', filename='images/Jaiprakash.png') }}" alt="Jaiprakash Yantra">
+            <h2>Jaiprakash Yantra</h2>
+            <p class="desc">Consists of hemispherical bowls for observing the position of celestial objects.</p>
+        </div>
+
+        <div class="instrument" id="rashivalaya-yantra">
+            <img src="{{ url_for('static', filename='images/Rahivalayas.png') }}" alt="Rashivalaya Yantra">
+            <h2>Rashivalaya Yantra</h2>
+            <p class="desc">Dedicated to the twelve zodiac signs for accurate astrological measurements.</p>
+        </div>
+
+        <div class="instrument" id="shankh-yantra">
+            <img src="{{ url_for('static', filename='images/Shankh.png') }}" alt="Shankh Yantra">
+            <h2>Shankh Yantra</h2>
+            <p class="desc">A symbolic conch-shaped instrument used in rituals and aligned with cosmic energies.</p>
+        </div>
+
+        <div class="instrument" id="dhanur-yantra">
+            <img src="{{ url_for('static', filename='images/Dhanur.png') }}" alt="Dhanur Yantra">
+            <h2>Dhanur Yantra</h2>
+            <p class="desc">Used to measure angles of elevation and trajectories, inspired by archery geometry.</p>
+        </div>
+
+        <div class="instrument" id="kundali-yantra">
+            <img src="{{ url_for('static', filename='images/Kundali.png') }}" alt="Kundali Yantra">
+            <h2>Kundali Yantra</h2>
+            <p class="desc">An astrological chart device for mapping planetary positions and horoscopes.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Indian Astronomical Instruments | All Rights Reserved</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    
+</body>
+</html>
